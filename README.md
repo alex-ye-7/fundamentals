@@ -1,0 +1,1 @@
+"Fundamentals are simple, but they are not easy."
