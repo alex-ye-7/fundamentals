@@ -1,1 +1,3 @@
-"Fundamentals are simple, but they are not easy."
+Not easy, but simple
+
+micrograd - Implement backpropagation over a scalar-valued expression graph and a small neural network library on top of it with PyTorch-like API
