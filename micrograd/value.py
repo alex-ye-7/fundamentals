@@ -33,7 +33,7 @@ class Value:
     
     def __pow__(self, other): # other is an int/float
         assert isinstance(other, (int,float)), "supports int/float only"
-        out = Value(self.data**other, (self,other), f'**{other}')
+        out = Value(self.data**other, (self,), f'**{other}')
 
         def _backward():
             self.grad += (other * self.data**(other-1)) * out.grad
